@@ -379,3 +379,7 @@ function jsonToHtml(json, images, html = '') {
 
 // Регистрируем плагин
 window.RanobeLibPlugin = RanobeLibPlugin
+
+// Type definitions (для совместимости)
+const defaultCover = '';
+const FilterTypes = { Picker: 'picker', CheckboxGroup: 'checkbox', Switch: 'switch', ExcludableCheckboxGroup: 'excludable-checkbox' };
