@@ -18,7 +18,7 @@ class RanobeLibPlugin {
     name = 'RanobeLib'
     site = 'https://ranobelib.me'
     apiSite = 'https://api.cdnlibs.org/api/manga/'
-    version = '2.2.3'
+    version = '2.2.4'
     icon = 'src/ru/ranobelib/icon.png'
     webStorageUtilized = true
     
