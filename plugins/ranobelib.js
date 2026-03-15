@@ -1,11 +1,10 @@
-// ==UserScript==
-// @name        RanobeLib (Ранобэ)
-// @description Плагин для чтения ранобэ с ranobelib.me
-// @version     2.2.3
-// @author      Fixed version
-// @namespace   https://ranobelib.me
-// @icon        https://ranobelib.me/favicon.ico
-// ==/UserScript==
+import { Plugin } from '@/types/plugin';
+import { FilterTypes, Filters } from '@libs/filterInputs';
+import { defaultCover } from '@libs/defaultCover';
+import { fetchApi } from '@libs/fetch';
+import { NovelStatus } from '@libs/novelStatus';
+import { storage, localStorage } from '@libs/storage';
+import dayjs from 'dayjs';
 
 class RanobeLibPlugin {
     id = 'RLIB'
