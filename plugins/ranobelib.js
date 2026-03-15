@@ -6,6 +6,13 @@ import { NovelStatus } from '@libs/novelStatus';
 import { storage, localStorage } from '@libs/storage';
 import dayjs from 'dayjs';
 
+const statusKey = {
+  1: NovelStatus.Ongoing,
+  2: NovelStatus.Completed,
+  3: NovelStatus.OnHiatus,
+  4: NovelStatus.Cancelled,
+};
+
 class RanobeLibPlugin {
     id = 'RLIB'
     name = 'RanobeLib'
